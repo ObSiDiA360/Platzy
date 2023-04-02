@@ -1,0 +1,55 @@
+2023-04-01 19:51:57.738 [info] Log level: Info
+2023-04-01 19:51:57.738 [info] Validating found git in: "git"
+2023-04-01 19:51:57.738 [info] Using git "2.34.1" from "git"
+2023-04-01 19:51:57.738 [info] > git rev-parse --show-toplevel [29ms]
+2023-04-01 19:51:57.738 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-04-01 19:51:57.738 [info] > git rev-parse --show-toplevel [6ms]
+2023-04-01 19:51:57.738 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-04-01 19:51:57.738 [info] > git rev-parse --show-toplevel [125ms]
+2023-04-01 19:51:57.738 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-04-01 19:51:57.739 [info] > git rev-parse --show-toplevel [3ms]
+2023-04-01 19:51:57.739 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-04-01 19:52:11.119 [info] > git rev-parse --show-toplevel [3ms]
+2023-04-01 19:52:11.119 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-04-01 19:52:11.389 [info] > git rev-parse --show-toplevel [1ms]
+2023-04-01 19:52:11.389 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-04-01 19:52:14.238 [info] > git rev-parse --show-toplevel [4ms]
+2023-04-01 19:52:14.238 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-04-01 19:55:09.390 [info] > git rev-parse --show-toplevel [4ms]
+2023-04-01 19:55:09.390 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-04-01 19:56:02.311 [info] > git rev-parse --show-toplevel [3ms]
+2023-04-01 19:56:02.311 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-04-01 19:58:27.265 [info] > git rev-parse --show-toplevel [14ms]
+2023-04-01 19:58:27.265 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-04-01 20:01:00.294 [info] > git rev-parse --show-toplevel [1ms]
+2023-04-01 20:01:00.294 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-04-01 20:04:27.591 [info] > git rev-parse --show-toplevel [2ms]
+2023-04-01 20:04:27.592 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-04-01 20:04:36.562 [info] > git rev-parse --show-toplevel [3ms]
+2023-04-01 20:04:36.563 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-04-01 20:05:14.089 [info] > git rev-parse --show-toplevel [3ms]
+2023-04-01 20:05:14.089 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-04-01 20:05:20.424 [info] > git rev-parse --show-toplevel [1ms]
+2023-04-01 20:05:20.424 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-04-01 20:05:41.278 [info] > git rev-parse --show-toplevel [12ms]
+2023-04-01 20:05:41.278 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-04-01 20:05:42.430 [info] > git rev-parse --show-toplevel [4ms]
+2023-04-01 20:05:42.431 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-04-01 20:05:56.476 [info] > git rev-parse --show-toplevel [2ms]
+2023-04-01 20:05:56.476 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-04-01 20:07:22.490 [info] > git rev-parse --show-toplevel [4ms]
+2023-04-01 20:07:22.490 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-04-01 21:01:07.899 [info] > git rev-parse --show-toplevel [1ms]
+2023-04-01 21:01:07.907 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2023-04-01 21:01:07.927 [info] Open repository: /home/deabreu
+2023-04-01 21:01:07.940 [info] > git config --get commit.template [6ms]
+2023-04-01 21:01:07.941 [info] No remotes found in the git config file.
+2023-04-01 21:01:07.942 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-04-01 21:01:08.193 [info] > git status -z -uall [246ms] (cancelled)
+2023-04-01 21:02:07.878 [info] > git check-ignore -v -z --stdin [2ms]
+2023-04-01 21:03:07.387 [info] > git show --textconv :web.html [5ms]
+2023-04-01 21:03:07.388 [info] > git ls-files --stage -- /home/deabreu/web.html [1ms]
+2023-04-01 21:03:07.392 [info] > git cat-file -s 4baea95458fe79b8ee52459bf5fa3c95757985e0 [1ms]
+2023-04-01 21:21:46.595 [info] > git ls-files --stage -- /home/deabreu/web.html [1ms]
+2023-04-01 21:21:46.603 [info] > git cat-file -s 4baea95458fe79b8ee52459bf5fa3c95757985e0 [1ms]
+2023-04-01 21:21:46.626 [info] > git show --textconv :web.html [2ms]

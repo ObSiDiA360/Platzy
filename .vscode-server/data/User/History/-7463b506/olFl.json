@@ -1,0 +1,12 @@
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "json.schemas": {
+        
+        "liveServer.settings.port": 0
+    }
+}

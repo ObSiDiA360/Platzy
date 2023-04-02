@@ -1,0 +1,76 @@
+0 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'n' ]
+1 info using npm@8.5.1
+2 info using node@v12.22.9
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:/home/deabreu/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 2ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 10ms
+18 timing npm:load:configload Completed in 10ms
+19 timing npm:load:setTitle Completed in 0ms
+20 timing config:load:flatten Completed in 2ms
+21 timing npm:load:display Completed in 3ms
+22 verbose logfile /home/deabreu/.npm/_logs/2023-04-02T00_20_16_934Z-debug-0.log
+23 timing npm:load:logFile Completed in 3ms
+24 timing npm:load:timers Completed in 0ms
+25 timing npm:load:configScope Completed in 0ms
+26 timing npm:load Completed in 17ms
+27 timing arborist:ctor Completed in 1ms
+28 timing idealTree:init Completed in 6ms
+29 timing idealTree:userRequests Completed in 4ms
+30 silly idealTree buildDeps
+31 silly fetch manifest n@*
+32 http fetch GET 200 https://registry.npmjs.org/n 682ms (cache miss)
+33 silly placeDep ROOT n@9.0.1 OK for:  want: *
+34 timing idealTree:#root Completed in 689ms
+35 timing idealTree:node_modules/n Completed in 0ms
+36 timing idealTree:buildDeps Completed in 690ms
+37 timing idealTree:fixDepFlags Completed in 0ms
+38 timing idealTree Completed in 701ms
+39 timing reify:loadTrees Completed in 703ms
+40 timing reify:diffTrees Completed in 1ms
+41 silly reify moves {}
+42 timing reify:retireShallow Completed in 0ms
+43 timing reify:rollback:createSparse Completed in 0ms
+44 timing reify:rollback:retireShallow Completed in 0ms
+45 timing command:install Completed in 716ms
+46 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules'
+47 verbose cwd /home/deabreu
+48 verbose Linux 5.15.90.1-microsoft-standard-WSL2
+49 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "n"
+50 verbose node v12.22.9
+51 verbose npm  v8.5.1
+52 error code EACCES
+53 error syscall mkdir
+54 error path /usr/local/lib/node_modules
+55 error errno -13
+56 error [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules'] {
+56 error   errno: -13,
+56 error   code: 'EACCES',
+56 error   syscall: 'mkdir',
+56 error   path: '/usr/local/lib/node_modules'
+56 error }
+57 error
+57 error The operation was rejected by your operating system.
+57 error It is likely you do not have the permissions to access this file as the current user
+57 error
+57 error If you believe this might be a permissions issue, please double-check the
+57 error permissions of the file and its containing directories, or try running
+57 error the command again as root/Administrator.
+58 verbose exit -13
+59 timing npm Completed in 862ms
+60 verbose unfinished npm timer reify 1680394817078
+61 verbose unfinished npm timer reify:createSparse 1680394817791
+62 verbose code -13
+63 error A complete log of this run can be found in:
+63 error     /home/deabreu/.npm/_logs/2023-04-02T00_20_16_934Z-debug-0.log

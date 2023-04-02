@@ -1,0 +1,10 @@
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.DoNotShowInfoMsg": true, 
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": 
+    "/mnt/c/Program Files/Google/Chrome/Application/chrome.exe": 0,
+}

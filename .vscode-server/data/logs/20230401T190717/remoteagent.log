@@ -1,0 +1,133 @@
+2023-04-01 19:07:17.651 [info] 
+
+
+
+
+2023-04-01 19:07:17.651 [info] Extension host agent started.
+2023-04-01 19:07:17.658 [info] Started initializing default profile extensions in extensions installation folder. file:///home/deabreu/.vscode-server/extensions
+2023-04-01 19:07:17.675 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/deabreu/.vscode-server/extensions
+2023-04-01 19:07:17.716 [info] [127.0.0.1][c74df750][ManagementConnection] New connection established.
+2023-04-01 19:07:17.978 [info] [127.0.0.1][0627ff6d][ExtensionHostConnection] New connection established.
+2023-04-01 19:07:17.996 [info] [127.0.0.1][0627ff6d][ExtensionHostConnection] <207> Launched Extension Host Process.
+2023-04-01 19:24:33.302 [info] Getting Manifest... ritwickdey.liveserver
+2023-04-01 19:24:33.875 [info] Installing extension: ritwickdey.liveserver
+2023-04-01 19:24:44.750 [info] Extension signature is verified: ritwickdey.liveserver
+2023-04-01 19:24:46.012 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-04-01 19:24:46.287 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow
+2023-04-01 19:24:47.542 [info] Extracted extension to /home/deabreu/.vscode-server/extensions/.a8f48ff0-4222-4c96-a53b-8e4edbb541ee: ritwickdey.liveserver
+2023-04-01 19:24:47.550 [info] Renamed to /home/deabreu/.vscode-server/extensions/ritwickdey.liveserver-5.7.9
+2023-04-01 19:24:47.552 [info] Extracting extension completed. ritwickdey.liveserver
+2023-04-01 19:24:47.558 [info] Extension installed successfully: ritwickdey.liveserver
+2023-04-01 19:24:48.581 [info] Extension signature is verified: ms-toolsai.vscode-jupyter-slideshow
+2023-04-01 19:24:48.606 [info] Extracted extension to /home/deabreu/.vscode-server/extensions/.86085185-3c9a-4f1a-b477-4dc459f6a0d3: ms-toolsai.vscode-jupyter-slideshow
+2023-04-01 19:24:48.614 [info] Renamed to /home/deabreu/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5
+2023-04-01 19:24:48.616 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-slideshow
+2023-04-01 19:24:48.622 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2023-04-01 19:24:50.316 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-04-01 19:24:50.652 [info] Installing extension: ms-toolsai.jupyter-renderers
+2023-04-01 19:24:58.220 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-04-01 19:24:58.582 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags
+2023-04-01 19:25:00.635 [info] Extension signature is verified: ms-toolsai.vscode-jupyter-cell-tags
+2023-04-01 19:25:00.669 [info] Extracted extension to /home/deabreu/.vscode-server/extensions/.defa2ed1-1725-41b3-90db-5127294eb0c2: ms-toolsai.vscode-jupyter-cell-tags
+2023-04-01 19:25:00.676 [info] Renamed to /home/deabreu/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8
+2023-04-01 19:25:00.677 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-cell-tags
+2023-04-01 19:25:00.683 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2023-04-01 19:25:00.906 [info] Getting Manifest... ms-toolsai.jupyter
+2023-04-01 19:25:01.239 [info] Installing extension: ms-toolsai.jupyter
+2023-04-01 19:25:01.562 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-04-01 19:25:01.838 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-04-01 19:25:02.109 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-04-01 19:25:02.440 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-04-01 19:25:02.816 [info] Installing extension: ms-toolsai.jupyter-keymap ms-toolsai.jupyter
+2023-04-01 19:25:02.816 [info] Waiting for already requested installing extension ms-toolsai.jupyter-renderers ms-toolsai.jupyter
+2023-04-01 19:25:03.133 [info] Getting Manifest... dbaeumer.vscode-eslint
+2023-04-01 19:25:03.469 [info] Installing extension: dbaeumer.vscode-eslint
+2023-04-01 19:25:04.615 [info] Extension signature is verified: ms-toolsai.jupyter-keymap
+2023-04-01 19:25:04.629 [info] Extracted extension to /home/deabreu/.vscode-server/extensions/.20967d1a-deb8-4af2-82f6-93e90334cc76: ms-toolsai.jupyter-keymap
+2023-04-01 19:25:04.635 [info] Renamed to /home/deabreu/.vscode-server/extensions/ms-toolsai.jupyter-keymap-1.1.0
+2023-04-01 19:25:04.636 [info] Extracting extension completed. ms-toolsai.jupyter-keymap
+2023-04-01 19:25:05.224 [info] Getting Manifest... tgreen7.vs-code-node-require
+2023-04-01 19:25:05.622 [info] Installing extension: tgreen7.vs-code-node-require
+2023-04-01 19:25:06.188 [info] Extension signature is verified: dbaeumer.vscode-eslint
+2023-04-01 19:25:06.225 [info] Extracted extension to /home/deabreu/.vscode-server/extensions/.c14d846c-b432-4d2a-8885-c5ecfec4c5f2: dbaeumer.vscode-eslint
+2023-04-01 19:25:06.232 [info] Renamed to /home/deabreu/.vscode-server/extensions/dbaeumer.vscode-eslint-2.4.0
+2023-04-01 19:25:06.234 [info] Extracting extension completed. dbaeumer.vscode-eslint
+2023-04-01 19:25:06.239 [info] Extension installed successfully: dbaeumer.vscode-eslint
+2023-04-01 19:25:06.528 [info] Extension signature is verified: ms-toolsai.jupyter-renderers
+2023-04-01 19:25:06.793 [info] Extracted extension to /home/deabreu/.vscode-server/extensions/.787866ac-3aaa-450c-919b-0a213398d876: ms-toolsai.jupyter-renderers
+2023-04-01 19:25:06.798 [info] Renamed to /home/deabreu/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.15
+2023-04-01 19:25:06.799 [info] Extracting extension completed. ms-toolsai.jupyter-renderers
+2023-04-01 19:25:06.804 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-04-01 19:25:06.805 [info] Finished waiting for already requested installing extension ms-toolsai.jupyter-renderers ms-toolsai.jupyter
+2023-04-01 19:25:08.137 [info] Extension signature is verified: tgreen7.vs-code-node-require
+2023-04-01 19:25:08.454 [info] Getting Manifest... ms-python.vscode-pylance
+2023-04-01 19:25:08.803 [info] Installing extension: ms-python.vscode-pylance
+2023-04-01 19:25:09.094 [info] Extracted extension to /home/deabreu/.vscode-server/extensions/.2ba28d3b-0208-42df-a728-5c6137ebd004: tgreen7.vs-code-node-require
+2023-04-01 19:25:09.102 [info] Renamed to /home/deabreu/.vscode-server/extensions/tgreen7.vs-code-node-require-1.10.2
+2023-04-01 19:25:09.103 [info] Extracting extension completed. tgreen7.vs-code-node-require
+2023-04-01 19:25:09.109 [info] Extension installed successfully: tgreen7.vs-code-node-require
+2023-04-01 19:25:09.801 [info] Getting Manifest... ms-python.python
+2023-04-01 19:25:10.029 [info] Getting Manifest... ms-python.python
+2023-04-01 19:25:10.359 [info] Getting Manifest... ms-toolsai.jupyter
+2023-04-01 19:25:10.379 [info] Installing extension: ms-python.python
+2023-04-01 19:25:10.987 [info] Getting Manifest... ms-toolsai.jupyter
+2023-04-01 19:25:11.081 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-04-01 19:25:11.349 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-04-01 19:25:11.554 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-04-01 19:25:11.626 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-04-01 19:25:11.887 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-04-01 19:25:11.965 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-04-01 19:25:12.161 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-04-01 19:25:12.337 [info] Waiting for already requested installing extension ms-python.python ms-python.vscode-pylance
+2023-04-01 19:25:12.338 [info] Waiting for already requested installing extension ms-toolsai.jupyter ms-python.vscode-pylance
+2023-04-01 19:25:12.338 [info] Waiting for already requested installing extension ms-toolsai.jupyter-keymap ms-python.vscode-pylance
+2023-04-01 19:25:12.437 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-04-01 19:25:12.707 [info] Getting Manifest... ms-python.vscode-pylance
+2023-04-01 19:25:13.562 [info] Getting Manifest... streetsidesoftware.code-spell-checker
+2023-04-01 19:25:14.154 [info] Installing extension: streetsidesoftware.code-spell-checker
+2023-04-01 19:25:14.193 [info] Getting Manifest... pranaygp.vscode-css-peek
+2023-04-01 19:25:14.537 [info] Installing extension: pranaygp.vscode-css-peek
+2023-04-01 19:25:16.557 [info] Extension signature is verified: streetsidesoftware.code-spell-checker
+2023-04-01 19:25:16.856 [info] Extracted extension to /home/deabreu/.vscode-server/extensions/.f3cbd610-e1a4-42cb-8e3c-26167a962432: streetsidesoftware.code-spell-checker
+2023-04-01 19:25:16.864 [info] Renamed to /home/deabreu/.vscode-server/extensions/streetsidesoftware.code-spell-checker-2.20.3
+2023-04-01 19:25:16.866 [info] Extracting extension completed. streetsidesoftware.code-spell-checker
+2023-04-01 19:25:16.871 [info] Extension installed successfully: streetsidesoftware.code-spell-checker
+2023-04-01 19:25:17.881 [info] Extension signature is verified: pranaygp.vscode-css-peek
+2023-04-01 19:25:18.110 [info] Extracted extension to /home/deabreu/.vscode-server/extensions/.1f9fbce8-a4dd-433b-a408-ae2d9e207c01: pranaygp.vscode-css-peek
+2023-04-01 19:25:18.118 [info] Renamed to /home/deabreu/.vscode-server/extensions/pranaygp.vscode-css-peek-4.2.0
+2023-04-01 19:25:18.119 [info] Extracting extension completed. pranaygp.vscode-css-peek
+2023-04-01 19:25:18.125 [info] Extension installed successfully: pranaygp.vscode-css-peek
+2023-04-01 19:25:22.299 [info] Extension signature is verified: ms-toolsai.jupyter
+2023-04-01 19:25:22.794 [info] Extracted extension to /home/deabreu/.vscode-server/extensions/.685d0a2b-2b5c-412a-826d-1039afa4b171: ms-toolsai.jupyter
+2023-04-01 19:25:22.801 [info] Renamed to /home/deabreu/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1000892223
+2023-04-01 19:25:22.805 [info] Extracting extension completed. ms-toolsai.jupyter
+2023-04-01 19:25:22.811 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2023-04-01 19:25:22.811 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-04-01 19:25:22.813 [info] Finished waiting for already requested installing extension ms-toolsai.jupyter ms-python.vscode-pylance
+2023-04-01 19:25:22.813 [info] Finished waiting for already requested installing extension ms-toolsai.jupyter-keymap ms-python.vscode-pylance
+2023-04-01 19:25:26.587 [info] Extension signature is verified: ms-python.vscode-pylance
+2023-04-01 19:25:29.693 [info] Extracted extension to /home/deabreu/.vscode-server/extensions/.43fa93db-9957-438f-89ac-d6f05a6fa6ec: ms-python.vscode-pylance
+2023-04-01 19:25:29.705 [info] Renamed to /home/deabreu/.vscode-server/extensions/ms-python.vscode-pylance-2023.3.40
+2023-04-01 19:25:29.708 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-04-01 19:25:40.035 [info] Extension signature is verified: ms-python.python
+2023-04-01 19:25:41.727 [info] Extracted extension to /home/deabreu/.vscode-server/extensions/.5cad94c8-2131-4da3-8a23-32094e8dc083: ms-python.python
+2023-04-01 19:25:41.738 [info] Renamed to /home/deabreu/.vscode-server/extensions/ms-python.python-2023.6.0
+2023-04-01 19:25:41.742 [info] Extracting extension completed. ms-python.python
+2023-04-01 19:25:41.748 [info] Extension installed successfully: ms-python.python
+2023-04-01 19:25:41.750 [info] Finished waiting for already requested installing extension ms-python.python ms-python.vscode-pylance
+2023-04-01 19:25:41.750 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-04-01 19:51:50.602 [info] Uninstalling extension from the profile: ritwickdey.liveserver@5.7.9 file:///home/deabreu/.vscode-server/extensions/extensions.json
+2023-04-01 19:51:50.640 [info] Marked extension as uninstalled ritwickdey.liveserver-5.7.9
+2023-04-01 19:51:50.943 [info] Successfully uninstalled extension from the profile ritwickdey.liveserver@5.7.9 file:///home/deabreu/.vscode-server/extensions/extensions.json
+2023-04-01 19:51:54.699 [info] [127.0.0.1][c74df750][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-04-01 19:51:54.789 [info] [127.0.0.1][0627ff6d][ExtensionHostConnection] <207> Extension Host Process exited with code: 0, signal: null.
+2023-04-01 19:51:56.102 [info] [127.0.0.1][aaad9710][ManagementConnection] New connection established.
+2023-04-01 19:51:56.296 [info] [127.0.0.1][810765c3][ExtensionHostConnection] New connection established.
+2023-04-01 19:51:56.302 [info] [127.0.0.1][810765c3][ExtensionHostConnection] <1245> Launched Extension Host Process.
+2023-04-01 19:52:09.187 [info] Getting Manifest... ritwickdey.liveserver
+2023-04-01 19:52:09.526 [info] Installing extension: ritwickdey.liveserver
+2023-04-01 19:52:10.982 [info] Extension signature is verified: ritwickdey.liveserver
+2023-04-01 19:52:10.985 [info] Removed the extension from uninstalled list: ritwickdey.liveserver
+2023-04-01 19:52:11.018 [info] Extension installed successfully: ritwickdey.liveserver
+2023-04-01 20:04:39.194 [info] [127.0.0.1][810765c3][ExtensionHostConnection] <1245> [0mGET /favicon.ico [33m404[0m 2.091 ms - 150[0m
+

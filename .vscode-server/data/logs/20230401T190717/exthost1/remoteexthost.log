@@ -1,0 +1,44 @@
+2023-04-01 19:07:18.342 [info] Extension host with pid 207 started
+2023-04-01 19:07:18.368 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-04-01 19:07:18.374 [info] Lock '/home/deabreu/.vscode-server/data/User/workspaceStorage/7b638d6b66906fc190142a437a950599/vscode.lock': Lock acquired.
+2023-04-01 19:07:18.429 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-01 19:07:18.443 [info] Eager extensions activated
+2023-04-01 19:07:18.443 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-01 19:07:18.443 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-01 19:10:27.770 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-04-01 19:10:31.476 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-04-01 19:10:31.476 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-04-01 19:24:47.716 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-04-01 19:25:06.300 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-04-01 19:25:17.010 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2023-04-01 19:25:18.310 [info] ExtensionService#_doActivateExtension pranaygp.vscode-css-peek, startup: false, activationEvent: 'workspaceContains:**/*.css,**/*.scss,**/*.sass,**/*.less'
+2023-04-01 19:26:00.652 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-04-01 19:26:00.652 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-04-01 19:26:00.652 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-04-01 19:40:21.990 [error] TypeError: e is not iterable
+	at c (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:1035483)
+	at _ (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:1035692)
+	at didChangeConfiguration (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:1038200)
+	at t.SyncConfigurationFeature.onDidChangeConfiguration (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:811220)
+	at /home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:810385
+	at E.invoke (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at t.$acceptConfigurationChanged (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:110:24454)
+	at /home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:110:23938
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-04-01 19:44:56.648 [error] TypeError: e is not iterable
+	at c (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:1035483)
+	at _ (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:1035692)
+	at didChangeConfiguration (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:1038200)
+	at t.SyncConfigurationFeature.onDidChangeConfiguration (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:811220)
+	at /home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:810385
+	at E.invoke (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at t.$acceptConfigurationChanged (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:110:24454)
+	at /home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:110:23938
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-04-01 19:51:54.698 [info] Extension host terminating: received terminate message from renderer
+2023-04-01 19:51:54.698 [info] Lock '/home/deabreu/.vscode-server/data/User/workspaceStorage/7b638d6b66906fc190142a437a950599/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-04-01 19:51:54.769 [info] Extension host with pid 207 exiting with code 0

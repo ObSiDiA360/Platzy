@@ -1,0 +1,38 @@
+2023-04-01 19:51:56.713 [info] Extension host with pid 1245 started
+2023-04-01 19:51:56.727 [info] Lock '/home/deabreu/.vscode-server/data/User/workspaceStorage/7b638d6b66906fc190142a437a950599/vscode.lock': Lock acquired.
+2023-04-01 19:51:56.775 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-04-01 19:51:56.777 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-04-01 19:51:57.352 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-01 19:51:57.405 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-01 19:51:57.406 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-01 19:51:57.567 [info] ExtensionService#_doActivateExtension pranaygp.vscode-css-peek, startup: true, activationEvent: 'workspaceContains:**/*.css,**/*.scss,**/*.sass,**/*.less'
+2023-04-01 19:51:57.611 [info] Eager extensions activated
+2023-04-01 19:51:57.611 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-01 19:51:57.611 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-01 19:51:57.612 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-04-01 19:51:57.612 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2023-04-01 19:52:11.218 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-04-01 19:52:46.173 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-04-01 19:52:46.173 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-04-01 19:52:46.174 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-04-01 19:52:46.488 [error] Activating extension vscode.json-language-features failed due to an error:
+2023-04-01 19:52:46.488 [error] TypeError: e is not iterable
+	at c (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:1035483)
+	at _ (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:1035692)
+	at didChangeConfiguration (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:1038200)
+	at t.SyncConfigurationFeature.onDidChangeConfiguration (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:811220)
+	at t.SyncConfigurationFeature.register (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:810511)
+	at t.SyncConfigurationFeature.initialize (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:810260)
+	at x.initializeFeatures (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:785271)
+	at x.doInitialize (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:772085)
+	at async x.start (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:769100)
+	at async t.startClient (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:1040218)
+	at async e.activate (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:1055129)
+	at async E.n (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:97:6646)
+	at async E.m (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:97:6609)
+	at async E.l (/home/deabreu/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:97:6066)
+2023-04-01 20:04:50.139 [error] Error: Unable to write into user settings. Please open the user settings to correct errors/warnings in it and try again.
+    at E.y (vscode-file://vscode-app/c:/Users/david/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2297:54909)
+    at E.o (vscode-file://vscode-app/c:/Users/david/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2297:52186)
+    at E.n (vscode-file://vscode-app/c:/Users/david/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2297:52077)
+    at async Object.factory (vscode-file://vscode-app/c:/Users/david/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2297:51827)
